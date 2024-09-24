@@ -1,76 +1,76 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate software developer with a strong focus on creating efficient and scalable solutions. With experience in web development, real-time applications, and data-driven projects, I am proficient in programming languages like C++, Python, and SQL. My expertise includes building responsive web applications using React.js, Node.js, and Socket.io, as well as data visualization with tools like MS Power BI. I am committed to leveraging my skills in software engineering, problem-solving, and collaboration to deliver innovative solutions that enhance user experience and streamline processes.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a versatile software developer with a passion for solving complex problems and creating efficient applications. My journey in technology has equipped me with a solid foundation in web development, real-time systems, and application design. I have hands-on experience in projects ranging from building responsive applications with React.js and Node.js to implementing data-driven solutions with SQL and Power BI. I thrive in collaborative environments and enjoy tackling new challenges that enhance user experiences and streamline workflows. Outside of my professional work, I actively engage with emerging technologies and continuously seek opportunities to learn and grow in the ever-evolving tech landscape.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May-2024",
+    role: " Software Engineering",
+    company: "J.P. Morgan",
+    description: `Set up a local dev environment by downloading the necessary files, tools and dependencies.
+    Fixed broken files in the repository to make web application output correctly.
+    Used JPMorgan Chase’s open source library called Perspective to generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor.`,
+    technologies: ["Web Applications", "React", "Git"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "June-2024",
+    role: "Data Analyst",
+    company: "Mentorness",
+    description: `Conducted detailed analysis of Walmart's sales data using SQL queries, identifying key trends such as top
+    selling product lines, peak sales hours, and branch performance. 
+    Extracted and interpreted business-critical insights from the dataset, leading to recommendations for 
+    inventory management, staffing optimization, and revenue growth strategies. 
+    Utilized Power BI to analyze survey responses from the food and beverage industry, focusing on consumer 
+    behavior, brand perception, and preferences. 
+    Created an interactive dashboard to visualize key insights, trends, and correlations, enabling data-driven 
+    decision-making for product and marketing strategies.`,
+    technologies: ["SQL", "Power BI", "Data Analysis"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "August-2024",
+    role: " Machine Learning Intern",
+    company: "Mentorness",
+    description: `Developed a machine learning model to forecast future sales trends using historical order data, customer 
+    information, and product categories.
+    The project involved feature engineering, model training, and testing multiple algorithms.
+    Built a predictive model to estimate customer purchase likelihood based on demographic and behavioral 
+    features. 
+    Analyzed customer data to support business decision-making, optimize marketing strategies, and improve 
+    customer retention.`,
+    technologies: ["Python", "SQL", "ML", "Scikit-learn", "Pandas", "Numpy"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Customer Segmentation and Classification",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    description: "Created an application based on the clustering technique to identify customer segments. Conducted exploratory data analysis (EDA), cleaned and imputed missing values, and removed duplicates. Applied feature scaling techniques, employed KMeans clustering, and utilized Principal Component Analysis (PCA). Developed a Decision Tree Classifier to classify customers into segments and evaluated model performance using key metrics.",
+    technologies: ["Python", "EDA", "PCA", "Decision Tree Classifier", "KMeans Clustering", "Matplotlib", "Scikit-learn"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "Tailwind CSS", "Framer Motion", "React"],
   },
+  
   {
-    title: "Blogging Platform",
+    title: "Realtime Chat Application",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a real-time chat application using React, Node.js, and Socket.io for seamless communication. Integrated WebSocket support to enable instant messaging between users with real-time message broadcasting. Utilized Express.js for server-side functionality, ensuring efficient connection handling and message flow.",
+       technologies: ["HTML", "CSS", "React", "Node", "Socket.io"],
   },
+
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+91 8789366875",
+  email: "aditya71prakash@gmail.com",
 };

@@ -1,5 +1,5 @@
 import { MdOpacity } from "react-icons/md";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/profile pic.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion"
 
